@@ -468,6 +468,7 @@ html {
 /* - Brand - */
 .brand img {
   max-height: 120px;
+  margin-bottom: 20px;
 }
 /* - Blog title and description - */
 .blog-title {
@@ -3866,7 +3867,7 @@ a#slide:hover{
     }
 
 a#slide:after{
-    content:"F"
+    content:"☰"
     }
 
 a#slide.slide:after{
