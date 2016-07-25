@@ -896,8 +896,8 @@ h6.lighter {
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url('../font/fontawesome-webfontf77b.eot?v=3.2.1');
-  src: url('../font/fontawesome-webfontd41d.eot?#iefix&v=3.2.1') format('embedded-opentype'), url('../font/fontawesome-webfontf77b.woff?v=3.2.1') format('woff'), url('../font/fontawesome-webfontf77b.ttf?v=3.2.1') format('truetype'), url('../font/fontawesome-webfont.svg#fontawesomeregular?v=3.2.1') format('svg');
+  src: url('../font/fontawesome-webfont.svg?v=4.6.3');
+  src: url('../font/fontawesome-webfont.eot?#iefix&v=4.6.3') format('embedded-opentype'), url('../font/fontawesome-webfont.woff?v=4.6.3') format('woff'), url('../font/fontawesome-webfont.ttf?v=4.6.3') format('truetype'), url('../font/fontawesome-webfont.svg#fontawesomeregular?v=4.6.3') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -2263,7 +2263,10 @@ a .icon-flip-vertical:before {
   content: "\f168";
 }
 .icon-xing-sign:before {
-  content: "\f169";
+content: "\f169";
+}
+.icon-slideshare:before {
+  content: "\f1e7";
 }
 .icon-youtube-play:before {
   content: "\f16a";
