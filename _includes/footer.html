@@ -9,7 +9,7 @@
 
             <ul class="social-icons">
             {% if site.owner.twitter %}<li>
-                <a href="http://twitter.com/{{ site.owner.twitter }}" data-toggle="tooltip" title="{{ site.owner.name}} on Twitter" target="_blank">
+                <a href="https://twitter.com/{{ site.owner.twitter }}" data-toggle="tooltip" title="{{ site.owner.name}} on Twitter" target="_blank">
                     <i class="icon-twitter"></i>
                 </a>
             </li>{% endif %}
@@ -44,8 +44,13 @@
                 </a>
             </li>{% endif %}
             {% if site.owner.github %}<li>
-                <a href="http://github.com/{{ site.owner.github }}" data-toggle="tooltip" title="{{ site.owner.name}} on Github" target="_blank">
+                <a href="https://github.com/{{ site.owner.github }}" data-toggle="tooltip" title="{{ site.owner.name}} on Github" target="_blank">
                     <i class="icon-github"></i>
+                </a>
+            </li>{% endif %}
+            {% if site.owner.xing %}<li>
+                <a href="https://www.xing.com/profile/{{ site.owner.xing }}" data-toggle="tooltip" title="{{ site.owner.name}} on Xing" target="_blank">
+                    <i class="icon-xing"></i>
                 </a>
             </li>{% endif %}
         </ul>
