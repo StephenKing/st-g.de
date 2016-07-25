@@ -48,6 +48,11 @@
                     <i class="icon-github"></i>
                 </a>
             </li>{% endif %}
+            {% if site.owner.slideshare %}<li>
+                <a href="http://www.slideshare.net/{{ site.owner.slideshare }}" data-toggle="tooltip" title="{{ site.owner.name}} on SlideShare" target="_blank">
+                    <i class="icon-slideshare"></i>
+                </a>
+            </li>{% endif %}
             {% if site.owner.xing %}<li>
                 <a href="https://www.xing.com/profile/{{ site.owner.xing }}" data-toggle="tooltip" title="{{ site.owner.name}} on Xing" target="_blank">
                     <i class="icon-xing"></i>
