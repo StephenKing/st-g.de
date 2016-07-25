@@ -3,7 +3,7 @@ layout: post
 title:  "A retrospect of half a year as Server Team member"
 date:   2011-12-28 00:00:00 +0200
 tags: [typo3, meta]
-
+imagefeature: 2011-12-28-a-retrospect-of-half-a-year-as-server-team-member/2011-07-13_11-31-34.jpg
 comments: true
 share: true
 ---
