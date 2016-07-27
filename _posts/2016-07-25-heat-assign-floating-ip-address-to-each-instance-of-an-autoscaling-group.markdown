@@ -1,35 +1,163 @@
 ---
 layout: post
-title:  "TYPO3 at Universities"
-date:   2012-11-22 00:00:00 +0200
-tags: [typo3, meta]
+title:  "Heat ASGs with Floating IP per Instance"
+date:   2016-07-25 00:00:00 +0200
+tags: [openstack, code]
+description: How to assign a floating IP address to each instance of an autoscaling group in OpenStack Heat
+
+imagefeature: 2016-07-25-heat-assign-floating-ip-address-to-each-instance-of-an-autoscaling-group/clouds-295695_1280.jpg
 
 comments: true
 share: true
+
 ---
 
-During the last two days, I had the opportunity to participate in a meeting of a special type of TYPO3 users: German universities.
 
-Thanks to [RRZN / University of Hannover](http://www.rrzn.uni-hannover.de/), around 50 people from allover Germany met for an event called ["TYPO3 an Hochschulen"](http://typo3-tagung.uni-hannover.de/) to talk about various topics regaring the use of TYPO3 in universities.
+OpenStack [Heat](http://docs.openstack.org/developer/heat/) is the orchestration project of OpenStack, which allows to describe and provision OpenStack resources based on Heat _templates_, similar to [Amazon CloudFormation](https://aws.amazon.com/cloudformation/).
+For a research project, I recently had the requirement to assign a _floating_ IP address to every instance of a Heat _autoscaling group_ (ASG).
+Given the fact that such setup is contradictory to the common practice having a load balancer in front of an ASG, this costed me some time to figure out.
 
-Besides a couple of known faces, a lot of people, who where new to me, participated and presented various kinds of topics in two parallel tracks. The type of talk varied, besides introductions to Extbase/Fluid or Git, showcases about Solr/Nutch or Shibboleth integration, also some interesting case studies of the whole TYPO3 ecosystem at the presenter's university made their way into the schedule. It is interesting to see TYPO3 installations having around 50,000 active pages - or people administrating 150 similar, but different installations in a small team. You know, each institute in a university expects its special treatment ;-)
+## Creating a Single Instance Using Heat
 
-Together with Helmut Hummel, we had a talk about TYPO3 CMS 6.0 and how universities can participate and influence the development of TYPO3 (in our opinion) ([slides](http://www.slideshare.net/StephenKing/typo3-cms-60-und-einblicke-in-die-typo3entwicklung)). The main message of my part of the talk was: inspiring people to share!
+Setting up a single instance using a Heat template (HOT) is pretty easy, straightforward and also covered in the [Heat templates repository](https://github.com/openstack/heat-templates/blob/497cf075f70e3b7051fcf52301cd8e356260a37c/hot/servers_in_existing_neutron_net.yaml):
 
-I think the meeting is a very good step into the direction of more cooperation and collaboration between the universities and with the whole non-academic community. More frequent regional meetings have been discussed in the closing session, as they already exist in [Baden-Württemberg](http://jweiland.net/aktuell/artikel/2-treffen-der-typo3-webmaster-an-hochschulen.html).
+{% highlight yaml %}
+# single_server_with_floating_ip.yaml
+# (abbreviated example based on hot/servers_in_existing_neutron_net.yaml)
 
-Prior to the meeting, the organizers had to limit the number of participants to one participant per university (and I guess a few were left out completely). As this was the first Germany-wide event of this kind, the huge interest showed the general interest in cooperation within this sub-community. I think future events will be planned having the large number of interests in mind.
+parameters:
+  # ~~~snip~~~
+  network:
+    type: string
+    description: The network for the VM
+    constraints:
+      - {custom_constraint: neutron.network}
+  public_net:
+    type: string
+    description: ID of public network for which floating IP addresses will be allocated
+    constraints:
+      - {custom_constraint: neutron.network}
 
-Furthermore, I hope that I will meet a lot of people again during next year's triage of [TYPO3camps or TYPO3 Developer Days](http://typo3.org/community/events/). That was one of my messages, as I think, like it happens to me during every event, all those people also travel home with a lot of new inspirantion, solutions, and new friends.
+resources:
+  server1:
+    type: OS::Nova::Server
+    properties:
+      name: Server1
+      image: { get_param: image }
+      networks:
+        - port: { get_resource: server1_port }
+      
+  server1_port:
+    type: OS::Neutron::Port
+    properties:
+      network_id: { get_param: network }
+      security_groups: [{ get_resource: server_security_group }]
 
-The feedback that we got was also really nice, often interesting, but also often expected: Having an LTS version is crucial for most universities and 6.0 is a big fear. To my knowledge, there's often little own development of extensions going on inside the universities theirselves. So what I heard was really not surprising. TYPO3 CMS 6.0 brings a lot of changes, but also stays compatible in a lot of ways - that's one of the benefits of TYPO3 CMS that we don't throw all API away with each version :-)
+  server1_floating_ip:
+    type: OS::Neutron::FloatingIP
+    properties:
+      floating_network_id: { get_param: public_net }
+      port_id: { get_resource: server1_port }
+{% endhighlight %}
 
-The need for long running versions of TYPO3 does not only exist in unversities. I can understand that it is hard to do updates once or twice per year, when there are like 2000 editors that need to be instructed in the changes. So the majority of universities clearly wants to stay on LTS versions (if I got it right).
+As we can see, the `server1_floating_ip` (of type [`OS::Neutron::FloatingIP`](http://docs.openstack.org/developer/heat/template_guide/openstack.html#OS::Neutron::FloatingIP)) is NAT'ed to the `server1_port` which in turn is assigned to the server instance (type [`OS::Nova::Server`](http://docs.openstack.org/developer/heat/template_guide/openstack.html#OS::Nova::Server)) that we instantiate. 
 
-I hope the lengthy, final discussion about how to stay in touch will lead to some action (discussion were about a closed or open mailing list, or better a forum, and what to (not) discuss there, etc.). I think the biggest consensus was to have an official, open list on typo3.org infrastructure (like typo3.ug.german-universities I would suggest). So let's see, whether we (=[Server Admin Team](http://typo3.org/teams/server-team/)) get the request within the next days in order to create one (our address is admin(at)typo3.org btw. *hint* *hint*).
+## Creating an Autoscaling Group
 
-So finally, thanks to Thomas Kröckertskothen and especially Martina Ahlswede for their initiative to host this event (and sorry for myself playing "Tante aus Marokko" (*) and the weekly cycle of registering and then cancelling my participation). I'm looking forward to see such events also in the future!
+In order to create an ASG of multiple instances, each only with a private IP, we also find help in the [Heat templates repository](https://github.com/openstack/heat-templates/blob/master/hot/asg_of_servers.yaml):
 
-Event web site: [http://typo3-tagung.uni-hannover.de](http://typo3-tagung.uni-hannover.de)
+{% highlight yaml %}
+# abbreviated example based on hot/asg_of_servers.yaml
 
-(*) _the German version of "She'll Be Coming 'Round the Mountain"_
+parameters:
+  # ~~~snip~~~
+  image:
+    type: string
+    description: Name or ID of the image to use for the instances.
+  network:
+    type: string
+    description: The network for the VM
+    default: private
+
+resources:
+  asg:
+    type: OS::Heat::AutoScalingGroup
+    properties:
+      resource:
+        type: OS::Nova::Server
+        properties:
+            key_name: { get_param: key_name }
+            image: { get_param: image }
+            flavor: { get_param: flavor }
+            networks: [{network: {get_param: network} }]
+      min_size: 1
+      desired_capacity: 3
+      max_size: 10
+{% endhighlight %}
+
+We see the [`AutoScalingGroup`](http://docs.openstack.org/developer/heat/template_guide/openstack.html#OS::Heat::AutoScalingGroup) defined with the Nova server instance being scaled up and down (between 1 and 10 instances).
+Using the [scale up and down](https://github.com/openstack/heat-templates/blob/497cf075f70e3b7051fcf52301cd8e356260a37c/hot/asg_of_servers.yaml#L61-L75) URLs provided, one can test the functionality of auto scaling.
+
+Recalling our goal, namely to assign a floating IP address to every instance of the ASG (and also to the ones created during scale-out), it looks intuitively right to extend the `resource` block of the previous template. However, only one `resource` can be given to the [`AutoScalingGroup`](http://docs.openstack.org/developer/heat/template_guide/openstack.html#OS::Heat::AutoScalingGroup). For our use case, we also need the floating IP resources to be added and destroyed on demand.
+
+## Scaling a Complete Stack
+
+The solution to my problem was finally hidden in one of the other examples, the [ASG of stacks](https://github.com/openstack/heat-templates/blob/497cf075f70e3b7051fcf52301cd8e356260a37c/hot/asg_of_stacks.yaml#L47-L51).
+Essentially, Heat can also scale a complete stack (defined by its own template file).
+So what we now do is essentially to treat the server with its floating IP as defined in the first listing (`single_server_with_floating_ip.yaml`) as entity of scale and pass through all parameters: 
+
+{% highlight yaml %}
+# asg_of_server_with_floating.yaml
+# (abbreviated example based on hot/asg_of_stacks.yaml)
+parameters:
+  # ~~~snip~~~
+  image:
+    type: string
+    description: Name or ID of the image to use for the instances.
+  network:
+    type: string
+    description: The network for the VM
+    constraints:
+      - {custom_constraint: neutron.network}
+  public_net:
+    type: string
+    description: ID of public network for which floating IP addresses will be allocated
+    constraints:
+      - {custom_constraint: neutron.network}
+resources:
+  asg:
+    type: OS::Heat::AutoScalingGroup
+    properties:
+      resource:
+        # this refers to the file previously described
+        type: server_with_floating.yaml
+        properties:
+            image: { get_param: image }
+            network: { get_param: network }
+            public_net: { get_param: public_net}
+      min_size: 1
+      desired_capacity: 3
+      max_size: 10
+{% endhighlight %}
+
+As the `type` of of resource, we can also supply a file name. That's.. let me think.. _not_ obvious?
+After long search, was able to find this behavior documented under [Template composition](http://docs.openstack.org/developer/heat/template_guide/composition.html#use-the-template-filename-as-type). 
+ 
+Mind the `public_net` parameter defining the public network ID, from which floating IPs are assigned.
+Once we trigger a scale-out, we can see antoehr instance including a floating IP being added after some seconds:
+
+![screenshot horizon](/images/2016-07-25-heat-assign-floating-ip-address-to-each-instance-of-an-autoscaling-group/screenshot.png)
+  
+I am not aware of a way to launch such stack using the Horizon dashboard, except when the inner template is referenced via an HTTP(S) URL.
+Instead, one can launch it using the command line client:
+
+{% highlight bash %}
+$ openstack stack create my-test-stack --template asg_of_server_with_floating.yaml -e environment.yaml
+{% endhighlight %}
+ 
+All definition of the required parameters, i.e., image and network IDs, are happening in the [`environment.yaml`](https://gist.github.com/StephenKing/13987089075af2cb72d43fee4a0c1ef4#file-environment-yaml) file. 
+
+While my use case was a little academic (why in the world should something scale inside an OpenStack cloud and be _directly_ reachable from the outside world), I think this (to me still unknown) concept of [template composition](http://docs.openstack.org/developer/heat/template_guide/composition.html#use-the-template-filename-as-type) helps solving many more problems.
+ 
+The complete code can be found in [this gist](https://gist.github.com/StephenKing/13987089075af2cb72d43fee4a0c1ef4).<br/>
+<small>(cover image by [sipa on pixabay.com](https://pixabay.com/en/clouds-nature-clouds-form-295695/))</small>
