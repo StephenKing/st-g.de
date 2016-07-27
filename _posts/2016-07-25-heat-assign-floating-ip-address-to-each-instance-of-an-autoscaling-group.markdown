@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Heat ASGs with Floating IP per Instance"
-date:   2016-07-25 00:00:00 +0200
+date:   2016-07-27 08:00:00 +0200
 tags: [openstack, code]
 description: How to assign a floating IP address to each instance of an autoscaling group in OpenStack Heat
 
