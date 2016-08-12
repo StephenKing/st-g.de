@@ -5,6 +5,8 @@ date:   2016-08-12 22:00:00 +0200
 tags: [jenkins, code]
 description: How to make Jetbrains IntelliJ aware of the Jenkinsfile Groovy DSL 
 
+imagefeature: 2016-08-12-jenkins-pipeline-autocompletion-in-intellij/artwork.jpg
+
 comments: true
 share: true
 
