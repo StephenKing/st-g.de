@@ -39,6 +39,21 @@ How new protocols (HTTP/2, QUIC, Multipath TCP) change the web and data transpor
 - Slides at [SlideShare](http://www.slideshare.net/StephenKing/cleaning-up-the-dirt-of-the-nineties-how-new-protocols-are-modernizing-the-web)
 - Event: [TYPO3camp Vienna 2016](http://t3cvienna.camp)
 
+## [German] 7x7 = Feiner Sand - Architekturalternativen für moderne Anwendungen - Docker, Microservices & PaaS (May 2015)
+ 
+ - Together with [Prof. Peter Sturm](https://www.uni-trier.de/index.php?id=17497)
+ - Event: [Datev](https://www.datev.de) TrendScout, Nuernberg
+
+## SDN Interfaces and Performance Analysis of SDN Components (Sept. 2014)
+
+- Sides at [SlideShare](http://www.slideshare.net/StephenKing/sdn-interfaces-and-performance-analysis-of-sdn-components)
+- Event: [ZKI Herbsttagung](https://www.rhrk.uni-kl.de/aktuell/zki2014/tagungsprogramm/), Kaiserslautern
+
+
+## [German] DevOps und Continuous Delivery (July 2014)
+
+- Event: [Datev](https://www.datev.de) TrendScout, Nuernberg
+
 
 ## The Development Infrastructure of the TYPO3 Project (Feb. 2013)
 
