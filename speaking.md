@@ -20,6 +20,19 @@ Currently, I'd be particularly happy to speak about the following topics:
 
 #  Past Talks
 
+## Jenkins Pipelines (Oct 2016)
+
+Pipelines are a central element of Continuous Delivery and break the delivery process down into multiple stages. By visualizing the flow through the pipeline, the delivery team receives feedback about the status of a change made to the delivered software project.
+
+The implementation of such pipelines using the popular Jenkins CI software has been pretty rough until the public release of a whole set of plugins earlier this year. These pipeline plugins are under very active development and now bring decent support for both pipeline visualization as well as configuration using an own domain specific language.
+
+The talk will give an overview over Jenkins' new pipeline plugins, as well as different ways to define pipelines as code, i.e., manually, by scanning all repos of a Github organization, and via the shared library. 
+By describing a setup for automated testing and releasing of Chef cookbooks, some of the features offered by Jenkins pipelines will be demonstrated.
+
+- Slides at [SlideShare](http://www.slideshare.net/StephenKing/jenkins-pipelines-67473540)
+- Event: [DevOps Meetup Frankfurt, Oct 2016](http://www.meetup.com/de-DE/DevOps-Frankfurt/events/234408955/)
+
+
 ## Let's go HTTPS-only! (May 2016)
  
 We are really overdue with encrypting all the things! During this talk, I discussed that setting up HTTPS is more than just buying a
