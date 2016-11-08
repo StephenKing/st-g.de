@@ -20,6 +20,13 @@ Currently, I'd be particularly happy to speak about the following topics:
 
 #  Past Talks
 
+## Continuous Delivery (Nov 2016)
+
+An introduction to continuous delivery.
+
+- Slides at [SlideShare](http://www.slideshare.net/StephenKing/continuous-delivery-68335663)
+- Event: [DevOps Meetup Würzburg, Nov 2016](https://www.meetup.com/de-DE/DevOps-Wuerzburg-Mainfranken/events/234778486/)
+
 ## Jenkins Pipelines (Oct 2016)
 
 Pipelines are a central element of Continuous Delivery and break the delivery process down into multiple stages. By visualizing the flow through the pipeline, the delivery team receives feedback about the status of a change made to the delivered software project.
