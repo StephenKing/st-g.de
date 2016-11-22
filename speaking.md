@@ -24,7 +24,7 @@ Currently, I'd be particularly happy to speak about the following topics:
 
 Kubernetes as cloud infrastructure solution offering cross-platfrom container orchestration for small and big clusters.
  
-- Event: [Datev](https://www.datev.de) TrendScout, Nuernberg
+- Event: [Datev](https://www.datev.de) TrendScout, Nuremberg
 
 ## Continuous Delivery (Nov 2016)
 
@@ -68,7 +68,7 @@ How new protocols (HTTP/2, QUIC, Multipath TCP) change the web and data transpor
 ## [German] 7x7 = Feiner Sand - Architekturalternativen für moderne Anwendungen - Docker, Microservices & PaaS (May 2015)
  
  - Together with [Prof. Peter Sturm](https://www.uni-trier.de/index.php?id=17497)
- - Event: [Datev](https://www.datev.de) TrendScout, Nuernberg
+ - Event: [Datev](https://www.datev.de) TrendScout, Nuremberg
 
 ## SDN Interfaces and Performance Analysis of SDN Components (Sept. 2014)
 
@@ -78,7 +78,7 @@ How new protocols (HTTP/2, QUIC, Multipath TCP) change the web and data transpor
 
 ## [German] DevOps und Continuous Delivery (July 2014)
 
-- Event: [Datev](https://www.datev.de) TrendScout, Nuernberg
+- Event: [Datev](https://www.datev.de) TrendScout, Nuremberg
 
 
 ## The Development Infrastructure of the TYPO3 Project (Feb. 2013)
@@ -115,7 +115,7 @@ About the TYPO3 open source project's infrastructure and how we (the Server Admi
 News from the TYPO3 project. The current status of TYPO3 CMS 6.0, TYPO3 Neos and TYPO3 Flow.
 
 - Slides at [SlideShare](http://www.slideshare.net/StephenKing/neuigkeiten-aus-dem-typo3projekt)
-- Event: [1st CMS night, Nuernberg, 2012](http://cmsnue.de/1-joomla-typo3-wordpress-contao-drupal)
+- Event: [1st CMS night, Nuremberg, 2012](http://cmsnue.de/1-joomla-typo3-wordpress-contao-drupal)
 
 
 ## Making of TYPO3 (Dec. 2011)
