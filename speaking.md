@@ -20,6 +20,12 @@ Currently, I'd be particularly happy to speak about the following topics:
 
 #  Past Talks
 
+## Build it, ship it, run it - here and there (Nov 2016)
+
+Kubernetes as cloud infrastructure solution offering cross-platfrom container orchestration for small and big clusters.
+ 
+- Event: [Datev](https://www.datev.de) TrendScout, Nuernberg
+
 ## Continuous Delivery (Nov 2016)
 
 An introduction to continuous delivery.
