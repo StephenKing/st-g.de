@@ -41,6 +41,9 @@ From that point on, the _Build Now_ button has changed to a _Build with Paramete
 
 ![Build with parameters](/images/2016-12-08-parametrized-jenkins-pipelines/build-with-parameters.png)
 
+P.S: The first run will most likely fail, as chances are good that you try to access the just added parameters ([JENKINS-40235](https://issues.jenkins-ci.org/browse/JENKINS-40235)).
+Subsequent runs will work, if your pipeline script is correct. 
+
 ## Bonus: Selection from Dropdown
 
 Using the _Choice Parameter_, the possible inputs can be restricted to a pre-defined list of choices.
