@@ -53,8 +53,8 @@ Using the _Choice Parameter_, the possible inputs can be restricted to a pre-def
 
 Be warned that the emitted code including `choices: ['TESTING', 'STAGING', 'PRODUCTION']` fails with an exception
 
-<quote>
+<blockquote>
 java.lang.ClassCastException: hudson.model.ChoiceParameterDefinition.choices expects class java.lang.String but received class java.util.ArrayList
-</quote>
+</blockquote>
 
 Instead, the list of choices has to be supplied as String containing new line characters (`\n`): `choices: ['TESTING\nSTAGING\nPRODUCTION']` ([JENKINS-40358](https://issues.jenkins-ci.org/browse/JENKINS-40358)).
