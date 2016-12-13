@@ -3,8 +3,6 @@
 <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
 
-<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"
-
 {% if site.owner.twitter %}<!-- Twitter Cards -->
 {% if page.imagefeature %}<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="{{ site.url }}/images/{{ page.imagefeature }}">
