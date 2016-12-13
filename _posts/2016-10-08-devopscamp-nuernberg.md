@@ -12,7 +12,7 @@ share: true
 
 ---
 
-Right now, I am sitting in the train on my way back from the [DevOps Camp Compact](openspacer.org/60-devops-community/127-devops-camp-compact-2016/) in Nürnberg. It was a very exhausting day with two talks that I gave and a lot of information and energy that I got from it.
+Right now, I am sitting in the train on my way back from the [DevOps Camp Compact](http://openspacer.org/60-devops-community/127-devops-camp-compact-2016/) in Nürnberg. It was a very exhausting day with two talks that I gave and a lot of information and energy that I got from it.
 I want to thank the organizers Tobias and Stefan, the location sponsor (my TYPO3 friends Netlogix), and the roughly 100 participants that made this such a great day. Further, I'm happy that I was finally able to join the 6th edition after I wasn't able to attend the previous four events.
 
 During the session planning, I offered three talks about the following topics:
