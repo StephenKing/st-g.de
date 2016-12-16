@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Parametrized Jenkins Piplines"
+title:  "Parametrized Jenkins Pipelines"
 date:   2016-12-08 18:00:00 +0200
 tags: [jenkins, code]
 description: Jenkins pipelines can be parametrized in the same way as traditional feestyle jobs. This post describes how. 
