@@ -17,6 +17,16 @@ Currently, I'd be particularly happy to speak about the following topics:
 - Continuous Delivery (of network infrastructure) 
 - Software-defined networking using ONOS
 
+# Upcoming Talks
+
+## Jenkins Pipelines
+
+[Feb 2nd, 2016 at the Java User Group Mannheim (MAJUG)](http://www.majug.de/2017/02/02/jenkins-pipelines/)
+
+## An Open-Source Chef Cookbook CI/CD Implementation Using Jenkins Pipelines 
+
+[Feb 6th, 2016 at the Config Management Camp (CfgMgmtCamp) Gent](http://cfgmgmtcamp.eu/schedule/chef/steffen-gebert.html)
+
 
 #  Past Talks
 
