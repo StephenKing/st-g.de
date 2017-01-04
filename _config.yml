@@ -54,6 +54,8 @@ links:
     url: /
     external: false
     icon: home
+  - title: Hire Me!
+    url: /hire-me
   - title: Speaking
     url: /speaking
   - title: Tags
