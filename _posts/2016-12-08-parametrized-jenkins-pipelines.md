@@ -41,7 +41,7 @@ From that point on, the _Build Now_ button has changed to a _Build with Paramete
 
 ![Build with parameters](/images/2016-12-08-parametrized-jenkins-pipelines/build-with-parameters.png)
 
-P.S: The first run will most likely fail, as chances are good that you try to access the just added parameters ([JENKINS-40235](https://issues.jenkins-ci.org/browse/JENKINS-40235)).
+P.S: The first run will most likely fail (_EDIT_: see last paragraph), as chances are good that you try to access the just added parameters ([JENKINS-40235](https://issues.jenkins-ci.org/browse/JENKINS-40235)).
 Subsequent runs will work, if your pipeline script is correct. 
 
 ## Bonus: Selection from Dropdown
@@ -58,3 +58,15 @@ java.lang.ClassCastException: hudson.model.ChoiceParameterDefinition.choices exp
 </blockquote>
 
 Instead, the list of choices has to be supplied as String containing new line characters (`\n`): `choices: ['TESTING\nSTAGING\nPRODUCTION']` ([JENKINS-40358](https://issues.jenkins-ci.org/browse/JENKINS-40358)).
+
+**EDIT January, 12th:** Previously, it was common to access these parameters using Groovy variables:
+  
+{% highlight groovy %}
+echo "Will deploy to ${DEPLOY_ENV}"
+{% endhighlight %}
+
+The newer `params.PARAM_NAME` option provides sane defaults to also let the first run of the pipeline succeed, when the parameter is not yet defined by the user:
+
+{% highlight groovy %}
+echo "Will deploy to ${params.DEPLOY_ENV}"
+{% endhighlight %}
