@@ -27,7 +27,7 @@ Due to my widespread interests, I get easily fascinated by a wide variety of job
 
 _Please note:_ I don't want to be your one-man-show, i.e., being your sole infrastructure guy. I'd really like have a team, from which I can learn and discuss with. Peer review culture would receive extra bonus.
 
-More information can be found in my 
+More information can be found in my [StackOverflow Developer Story](https://stackoverflow.com/story/stephenking).
 <a href="https://stackoverflow.com/story/stephenking" data-track-content data-content-name="StackOverflow Developer Story"><img src="/images/stackoverflow-developer-story.png" alt="StackOverflow Developer Story"></a>
 
 Links to social networks can be found in the footer. You can contact me via _st+job-via-stgde@st-g.de_.
