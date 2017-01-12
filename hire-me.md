@@ -8,6 +8,7 @@ description: "Looking for a full-time job starting from April 2017"
 <h1 class="post-title text-center hyper lighter bordered-bottom entry-title">Hire Me!</h1>
 <div class="cursive" style="color: #000; font-style:italic;">Looking forward to join your talented team!</div>
 
+<span data-track-content data-content-name="Hire Me / Personal Info" data-content-piece="Personal Info"></span>
 After finishing my PhD with a focus on software-based networks probably in March 2017, I am looking for a job in a team of talented peers.
 I have broad experience in IT infrastructure maintenance as well as networking.
 
@@ -17,6 +18,8 @@ I'd either work **full remote** or - if we both share the luck to be situated in
 
 Due to my widespread interests, I get easily fascinated by a wide variety of jobs. I can very well imagine to work in one of the following areas:
 
+<span data-track-content data-content-name="Hire Me / Job Types" data-content-piece="Job Types"></span>
+
 * infrastructure engineering / SRE at a large scale, preferably with Kubernetes and friends
 * networking engineering / network programming at large scale using software defined networking
 * product development related to software-based networks
@@ -24,7 +27,9 @@ Due to my widespread interests, I get easily fascinated by a wide variety of job
 
 _Please note:_ I don't want to be your one-man-show, i.e., being your sole infrastructure guy. I'd really like have a team, from which I can learn and discuss with. Peer review culture would receive extra bonus.
 
-More information can be found in my [StackOverflow Developer Story](https://stackoverflow.com/story/stephenking).
-[![preview](/images/stackoverflow-developer-story.png)](https://stackoverflow.com/story/stephenking)
+More information can be found in my 
+<a href="https://stackoverflow.com/story/stephenking" data-track-content data-content-name="StackOverflow Developer Story"><img src="/images/stackoverflow-developer-story.png" alt="StackOverflow Developer Story"></a>
 
 Links to social networks can be found in the footer. You can contact me via _st+job-via-stgde@st-g.de_.
+
+<span data-track-content data-content-name="Hire Me / Contact" data-content-piece="Conctact"></span>
