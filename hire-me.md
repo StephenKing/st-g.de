@@ -30,4 +30,4 @@ _Please note:_ I don't want to be your one-man-show, i.e., being your sole infra
 More information can be found in my [StackOverflow Developer Story](https://stackoverflow.com/story/stephenking).
 <a href="https://stackoverflow.com/story/stephenking" data-track-content data-content-name="Hire Me" data-content-piece="03 StackOverflow Developer Story"><img src="/images/stackoverflow-developer-story.png" alt="StackOverflow Developer Story"></a>
 
-Links to social networks can be found in the footer. You can contact me via <span data-track-content data-content-name="Hire Me" data-content-piece="04 Conctact"><a href="mailto:st+job-via-stgde@st-g.de><em>st+job-via-stgde@st-g.de</em></a></span>.
+Links to social networks can be found in the footer. You can contact me via <span data-track-content data-content-name="Hire Me" data-content-piece="04 Conctact"><a href="mailto:st+job-via-stgde@st-g.de"><em>st+job-via-stgde@st-g.de</em></a></span>.
