@@ -54,4 +54,10 @@ It is not completely clear to me, why I was not able to achieve that with my exi
 
 ![message that DSL descriptor file is found](/images/2016-08-12-jenkins-pipeline-autocompletion-in-intellij/import.png)
 
-I hope this helps, either by making you aware of this "feature" or by helping to solve the problem that the `.gdsl` file is not picked up. 
+I hope this helps, either by making you aware of this "feature" or by helping to solve the problem that the `.gdsl` file is not picked up.
+ 
+**EDIT January, 13th:** [Michael Lihs](http://lihsmi.ch) figured out one more caveat on [StackOverflow](http://stackoverflow.com/questions/41062514/use-gdsl-file-in-a-java-project-in-intellij) (quoting his answer):
+
+<blockquote>
+The problem was, that /src was not marked as a source root folder in my project. Creating a folder /src/main/groovy, putting the file in there and marking it as a sources root (right click on the folder -> Mark directory as -> Sources Root) did the trick.
+</blockquote>
