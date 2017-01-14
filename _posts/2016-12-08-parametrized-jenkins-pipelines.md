@@ -65,7 +65,7 @@ Instead, the list of choices has to be supplied as String containing new line ch
 echo "Will deploy to ${DEPLOY_ENV}"
 {% endhighlight %}
 
-The newer `params.PARAM_NAME` option provides sane defaults to also let the first run of the pipeline succeed, when the parameter is not yet defined by the user:
+As of [`workflow-cps` version 2.18](https://wiki.jenkins-ci.org/display/JENKINS/Pipeline+Groovy+Plugin#PipelineGroovyPlugin-2.18%28Sep23%2C2016%29), a new `params` global variable provides sane defaults to also let the first run of the pipeline succeed, when the parameter is not yet defined by the user:
 
 {% highlight groovy %}
 echo "Will deploy to ${params.DEPLOY_ENV}"
