@@ -14,7 +14,7 @@ I have broad experience in IT infrastructure maintenance as well as networking.
 
 I'd either work **full remote** or - if we both share the luck to be situated in the same nice area - in reach of [**Würzburg, Germany**](https://www.google.com/maps/place/W%C3%BCrzburg,+Germany/@49.778052,9.8729894,12z/data=!4m15!1m9!4m8!1m0!1m6!1m2!1s0x47a2902012da4dd9:0x41db728f06209a0!2sW%C3%BCrzburg,+Germany!2m2!1d9.9533548!2d49.7913044!3m4!1s0x47a2902012da4dd9:0x41db728f06209a0!8m2!3d49.7913044!4d9.9533548?hl=en-US):
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d641331.2928416185!2d9.302545706687788!3d50.20421842181345!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a2902012da4dd9%3A0x41db728f06209a0!2sW%C3%BCrzburg%2C+Germany!5e0!3m2!1sen!2sde!4v1483513410474" width="800" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d641331.2928416185!2d9.302545706687788!3d50.20421842181345!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a2902012da4dd9%3A0x41db728f06209a0!2sW%C3%BCrzburg%2C+Germany!5e0!3m2!1sen!2sde!4v1483513410474" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 Due to my widespread interests, I get easily fascinated by a wide variety of jobs. I can very well imagine to work in one of the following areas:
 
