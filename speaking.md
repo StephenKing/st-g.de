@@ -17,18 +17,21 @@ Currently, I'd be particularly happy to speak about the following topics:
 - Continuous Delivery (of network infrastructure) 
 - Software-defined networking using ONOS
 
-# Upcoming Talks
 
-## Jenkins Pipelines
-
-[Feb 2nd, 2016 at the Java User Group Mannheim (MAJUG)](http://www.majug.de/2017/02/02/jenkins-pipelines/)
-
-## An Open-Source Chef Cookbook CI/CD Implementation Using Jenkins Pipelines 
-
-[Feb 6th, 2016 at the Config Management Camp (CfgMgmtCamp) Gent](http://cfgmgmtcamp.eu/schedule/chef/steffen-gebert.html)
 
 
 #  Past Talks
+
+## An Open-Source Chef Cookbook CI/CD Implementation Using Jenkins Pipelines (Feb 2017) 
+
+Infrastructure is code and code should be tested. For Chef cookbooks, it is however up to the user to establish such testing and release workflows, at least when relying solely on non-commercial tooling. This talk introduces the - still far from perfect - implementation of a Chef cookbook CI/CD pipeline used in the TYPO3 open source project, publicly available at [chef-ci.typo3.org](https://chef-ci.typo3.org). The complete setup can be instantiated using a publicly available cookbook and is self-contained, i.e., the cookbook passes itself through its pipeline.
+
+This implementation makes use of the novel Jenkins Pipeline plugins, which allow to define pipelines as code.
+
+By pointing to a GitHub organization, any code changes in its cookbook repos trigger a pipeline execution. After passing successfully through the different test stages, including parallelized test-kitchen runs, the upload to the Chef Server terminates the pipeline.
+
+- Slides at [SlideShare](https://www.slideshare.net/StephenKing/an-opensource-chef-cookbook-cicd-implementation-using-jenkins-pipelines)
+- Event: [Config Management Camp (CfgMgmtCamp) Gent](http://cfgmgmtcamp.eu/schedule/chef/steffen-gebert.html)
 
 ## Build it, ship it, run it - here and there (Nov 2016)
 
