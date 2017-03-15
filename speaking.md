@@ -22,6 +22,14 @@ Currently, I'd be particularly happy to speak about the following topics:
 
 #  Past Talks
 
+## (Declarative) Jenkins Pipelines (Mar 2017)
+
+An updated version of the Jenkins Pipelines talk below, this time with the introduction focussing on declarative pipelines. 
+
+- Slides at [SlideShare](https://www.slideshare.net/StephenKing/declarative-jenkins-pipelines)
+- Event: [Java User Group Mannheim (MAJUG), Mar 2017](http://www.majug.de/2017/03/15/jenkins-pipelines/)
+
+
 ## An Open-Source Chef Cookbook CI/CD Implementation Using Jenkins Pipelines (Feb 2017) 
 
 Infrastructure is code and code should be tested. For Chef cookbooks, it is however up to the user to establish such testing and release workflows, at least when relying solely on non-commercial tooling. This talk introduces the - still far from perfect - implementation of a Chef cookbook CI/CD pipeline used in the TYPO3 open source project, publicly available at [chef-ci.typo3.org](https://chef-ci.typo3.org). The complete setup can be instantiated using a publicly available cookbook and is self-contained, i.e., the cookbook passes itself through its pipeline.
