@@ -15,7 +15,7 @@ share: true
 I am a big fan of the new [Jenkins Pipeline](https://jenkins.io/pipeline/getting-started-pipelines/) suite and enjoy defining my pipelines as code.
 Now, I noticed that there is even a way to make IntelliJ IDEA aware ofthe pipeline DSL syntax, which supports the developer with autocompletion and documentation.  
 
-For looking up the DSL syntax, I am a frequent visitor of the [Pipeline Steps Reference](https://jenkins.io/doc/pipeline/steps/) on [jenkins.io](https://jenkins.tio).
+For looking up the DSL syntax, I am a frequent visitor of the [Pipeline Steps Reference](https://jenkins.io/doc/pipeline/steps/) on [jenkins.io](https://jenkins.io).
 As I am only seldom visiting the Jenkins web interface to use the _Pipeline Syntax Snippet Generator_, I was a bit puzzled when I stumbled over a mysterious _IntelliJ IDEA GDSL_ link (available for logged-in users).
 
 ![Jenkins with link to the IntelliJ IDEA GDSL file](/images/2016-08-12-jenkins-pipeline-autocompletion-in-intellij/GDSL-link.png)
