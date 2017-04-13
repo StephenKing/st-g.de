@@ -16,7 +16,7 @@ animated_fins:	  true
 # Specify the fin color in RGB value
 fin_color:        "255,255,255"
 # Change url to your domain. Leave localhost server or blank when working locally.
-# or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 
+# or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
 url:              //st-g.de
 
@@ -54,8 +54,6 @@ links:
     url: /
     external: false
     icon: home
-  - title: Hire Me!
-    url: /hire-me
   - title: Speaking
     url: /speaking
   - title: Tags
@@ -80,7 +78,7 @@ kramdown:
   enable_coderay: false
 
   coderay:
-    coderay_line_numbers: 
+    coderay_line_numbers:
     coderay_line_numbers_start: 1
     coderay_tab_width: 4
     coderay_bold_every: 10
@@ -110,7 +108,7 @@ prose:
           placeholder: "Choose your type"
           options:
             - name: "Standard"
-              value: 
+              value:
             - name: "Quote"
               value: quote
             - name: "Status"
