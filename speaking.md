@@ -65,7 +65,7 @@ The talk will give an overview over Jenkins' new pipeline plugins, as well as di
 By describing a setup for automated testing and releasing of Chef cookbooks, some of the features offered by Jenkins pipelines will be demonstrated.
 
 - Slides at [SlideShare](http://www.slideshare.net/StephenKing/jenkins-pipelines-67473540)
-- Event: [DevOps Meetup Frankfurt, Oct 2016](http://www.meetup.com/de-DE/DevOps-Frankfurt/events/234408955/)
+- Event: [DevOps Meetup Frankfurt](http://www.meetup.com/de-DE/DevOps-Frankfurt/events/234408955/)
 
 
 ## Let's go HTTPS-only! (May 2016)
