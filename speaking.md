@@ -11,16 +11,17 @@ description: "From time time, I want to say something."
 
 ## Hot Topics
 
-Currently, I'd be particularly happy to speak about the following topics:
-
-- Jenkins Pipeline suite
-- Continuous Delivery (of network infrastructure) 
-- Software-defined networking using ONOS
-
+Due to my new job, I'm currently more focused on learning myself. I'm sure, new topics will come up about which I want to speak actively.
 
 
 
 #  Past Talks
+
+## HTTP/2, QUIC, and Multipath-TCP (Mar 2017)
+
+How new protocols are modernizing the web.
+
+- Event: [adidas](http://www.adidas.de) Tech Talks, Herzogenaurach
 
 ## (Declarative) Jenkins Pipelines (Mar 2017)
 
