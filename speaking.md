@@ -53,7 +53,7 @@ Kubernetes as cloud infrastructure solution offering cross-platfrom container or
 An introduction to continuous delivery.
 
 - Slides at [SlideShare](http://www.slideshare.net/StephenKing/continuous-delivery-68335663)
-- Event: [DevOps Meetup Würzburg, Nov 2016](https://www.meetup.com/de-DE/DevOps-Wuerzburg-Mainfranken/events/234778486/)
+- Event: [DevOps Meetup Würzburg](https://www.meetup.com/de-DE/DevOps-Wuerzburg-Mainfranken/events/234778486/)
 
 ## Jenkins Pipelines (Oct 2016)
 
