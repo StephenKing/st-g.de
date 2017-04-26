@@ -28,7 +28,7 @@ How new protocols are modernizing the web.
 An updated version of the Jenkins Pipelines talk below, this time with the introduction focussing on declarative pipelines. 
 
 - Slides at [SlideShare](https://www.slideshare.net/StephenKing/declarative-jenkins-pipelines)
-- Event: [Java User Group Mannheim (MAJUG), Mar 2017](http://www.majug.de/2017/03/15/jenkins-pipelines/)
+- Event: [Java User Group Mannheim (MAJUG)](http://www.majug.de/2017/03/15/jenkins-pipelines/)
 
 
 ## An Open-Source Chef Cookbook CI/CD Implementation Using Jenkins Pipelines (Feb 2017) 
