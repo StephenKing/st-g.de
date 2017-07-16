@@ -54,6 +54,8 @@ links:
     url: /
     external: false
     icon: home
+  - title: About
+    url: /about
   - title: Speaking
     url: /speaking
   - title: Tags
