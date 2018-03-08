@@ -35,13 +35,13 @@ How new protocols are modernizing the web.
 
 ## (Declarative) Jenkins Pipelines (Mar 2017)
 
-An updated version of the Jenkins Pipelines talk below, this time with the introduction focussing on declarative pipelines. 
+An updated version of the Jenkins Pipelines talk below, this time with the introduction focussing on declarative pipelines.
 
 - Slides at [SlideShare](https://www.slideshare.net/StephenKing/declarative-jenkins-pipelines)
 - Event: [Java User Group Mannheim (MAJUG)](http://www.majug.de/2017/03/15/jenkins-pipelines/)
 
 
-## An Open-Source Chef Cookbook CI/CD Implementation Using Jenkins Pipelines (Feb 2017) 
+## An Open-Source Chef Cookbook CI/CD Implementation Using Jenkins Pipelines (Feb 2017)
 
 Infrastructure is code and code should be tested. For Chef cookbooks, it is however up to the user to establish such testing and release workflows, at least when relying solely on non-commercial tooling. This talk introduces the - still far from perfect - implementation of a Chef cookbook CI/CD pipeline used in the TYPO3 open source project, publicly available at [chef-ci.typo3.org](https://chef-ci.typo3.org). The complete setup can be instantiated using a publicly available cookbook and is self-contained, i.e., the cookbook passes itself through its pipeline.
 
@@ -55,7 +55,7 @@ By pointing to a GitHub organization, any code changes in its cookbook repos tri
 ## Build it, ship it, run it - here and there (Nov 2016)
 
 Kubernetes as cloud infrastructure solution offering cross-platfrom container orchestration for small and big clusters.
- 
+
 - Event: [Datev](https://www.datev.de) TrendScout, Nuremberg
 
 ## Continuous Delivery (Nov 2016)
@@ -71,7 +71,7 @@ Pipelines are a central element of Continuous Delivery and break the delivery pr
 
 The implementation of such pipelines using the popular Jenkins CI software has been pretty rough until the public release of a whole set of plugins earlier this year. These pipeline plugins are under very active development and now bring decent support for both pipeline visualization as well as configuration using an own domain specific language.
 
-The talk will give an overview over Jenkins' new pipeline plugins, as well as different ways to define pipelines as code, i.e., manually, by scanning all repos of a Github organization, and via the shared library. 
+The talk will give an overview over Jenkins' new pipeline plugins, as well as different ways to define pipelines as code, i.e., manually, by scanning all repos of a Github organization, and via the shared library.
 By describing a setup for automated testing and releasing of Chef cookbooks, some of the features offered by Jenkins pipelines will be demonstrated.
 
 - Slides at [SlideShare](http://www.slideshare.net/StephenKing/jenkins-pipelines-67473540)
@@ -79,13 +79,13 @@ By describing a setup for automated testing and releasing of Chef cookbooks, som
 
 
 ## Let's go HTTPS-only! (May 2016)
- 
+
 We are really overdue with encrypting all the things! During this talk, I discussed that setting up HTTPS is more than just buying a
 certificate - for the good and for the bad.
 On the one hand, one doesn't even have to buy one, when [Let's Encrypt](https://letsencrypt.org) is an option. On the other hand,
 there are bunch of options that should be undertaken to make the setup really secure. This includes HTTP Strict Transport Security headers,
 correct ciphers, and many more.
- 
+
 - Slides at [SlideShare](http://www.slideshare.net/StephenKing/lets-go-httpsonly-more-than-buying-a-certificate)
 - Event: [TYPO3camp Vienna 2016](http://t3cvienna.camp)
 
@@ -98,7 +98,7 @@ How new protocols (HTTP/2, QUIC, Multipath TCP) change the web and data transpor
 - Event: [TYPO3camp Vienna 2016](http://t3cvienna.camp)
 
 ## [German] 7x7 = Feiner Sand - Architekturalternativen für moderne Anwendungen - Docker, Microservices & PaaS (May 2015)
- 
+
  - Together with [Prof. Peter Sturm](https://www.uni-trier.de/index.php?id=17497)
  - Event: [Datev](https://www.datev.de) TrendScout, Nuremberg
 
@@ -136,7 +136,7 @@ project and allows everybody to participate by pushing patches and voting for/ag
 
 ## Official typo3.org Infrastructure &  the TYPO3 Server Admin Team (Nov. 2012)
 
-About the TYPO3 open source project's infrastructure and how we (the Server Admin Team) maintain it. 
+About the TYPO3 open source project's infrastructure and how we (the Server Admin Team) maintain it.
 
 - Slides at [SlideShare](http://www.slideshare.net/StephenKing/die-offizielle-typo3org-infrastruktur-das-typo3-server-admin-team)
 - Event: [TYPO3camp Rhein-Ruhr 2012](http://www.typo3camp-rheinruhr.de/)
