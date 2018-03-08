@@ -11,9 +11,19 @@ description: "From time time, I want to say something."
 
 ## Hot Topics
 
-Due to my new job, I'm currently more focused on learning myself. I'm sure, new topics will come up about which I want to speak actively.
+Currently, I'd be particularly happy to speak about the following topics:
 
+- Akka in general and Akka Cluster feature (pubsub, distibuted data)
+- Akka monitoring using [Kamon](https://kamon.io)
+- Jenkins Pipelines
 
+# Upcoming Talks
+
+## Monitoring Akka with Kamon 1.0 (Apr 2018)
+
+Insights into the inner workings of an application become crucial latest when performance and scalability issues are encountered. This becomes especially challenging in distributed systems, like when using Akka cluster. A popular open-source solution for monitoring on the JVM in general, and Akka in particular, is Kamon. With its recently reached 1.0 milestone, it features means for both metrics collection and tracing of Akka applications, running both standalone or distributed. This talk gives an introduction to Kamon 1.0 with a focus on its metrics features. The basic setup using Prometheus and Grafana will be described, as well as an overview over the different modules and its APIs for implementing custom metrics. The resulting setup allows to record both, automatically exposed metrics about Akka’s actor systems, as well as metrics tailored to the monitored application’s domain and service level indicators. Finally, learnings from a first-time user experience of getting started with Kamon will be reported. The example of adding instrumentation to EMnify’s mobile core application will illustrate, how easy it is to get started and how to kill the Prometheus on a daily basis.
+
+- Event: [ReactSphere](https://react.sphere.it/steffen-gebert), Krakow
 
 #  Past Talks
 
