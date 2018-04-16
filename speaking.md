@@ -19,6 +19,8 @@ Currently, I'd be particularly happy to speak about the following topics:
 
 # Upcoming Talks
 
+none planned, open for invitations
+
 #  Past Talks
 
 ## Monitoring Akka with Kamon 1.0 (Apr 2018)
