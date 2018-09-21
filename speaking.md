@@ -20,11 +20,9 @@ Currently, I'd be particularly happy to speak about the following topics:
 
 # Upcoming Talks
 
-## The Next Level of AWS Networking Features  (Sept 2018)
+## Networking in Amazon Web Services  (Oct 2018)
 
-We all learned to love the advantages of microsegmentation provided by security groups compared to good old firewalling. But what's the next level of AWS networking features for increased security, stability, and more elegant deployments? This talk will given an overview about to what your VPC can connect to and vice versa: besides ALBs and NLBs, we discuss VPCs Peering and VPC Endpoints, as well as how PrivateLink allows us to expose our services. Finally we learn how to connect to the outside world via dedicated fiber, offered through AWS DirectConnect.
-
-- Event: [AWS Community Days](https://aws.amazon.com/de/events/aws-community-days/)
+- Event: [DevOps Meetup Würzburg](https://www.meetup.com/de-DE/DevOps-Wuerzburg-Mainfranken/events/254663322/)
 
 #  Past Talks
 
