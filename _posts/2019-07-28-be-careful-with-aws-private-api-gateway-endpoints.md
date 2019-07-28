@@ -54,3 +54,5 @@ This requires you to have pretty deep control over the applications accessing th
 Another alternative, as I was told by AWS Community Hero [Thorsten Höger](https://www.taimos.de/), which would not require to set custom headers with disabled DNS resolution, would be based on a custom domain name configured in the API Gateway and an ALB in front of it. Based on an IP target group, the ALB would forwards the requests to the ENIs of the VPC Endpoint. Looks like an option to move the complexity into the network.
 
 So far, it became not at all clear to me (and AWS support was not able to explain), why all calls to public APIs are rejected. If this would work the execute-api VPC endpoint would behave like any other - and not kill your setup. #awswishlist
+
+If my understanding is wrong or if you have a better solution, I'm happy to read from you in the comments below! 
