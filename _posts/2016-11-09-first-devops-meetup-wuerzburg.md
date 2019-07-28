@@ -13,7 +13,7 @@ share: true
 ---
 
 As a long-time visitor of the [DevOps Frankfurt](https://www.meetup.com/de-DE/DevOps-Frankfurt/) meetup, I always had the desire for establishing the same kind of event here in my beautiful town of [Würzburg](https://www.google.de/maps/place/Würzburg/).
-Together with Andreas Rudat ([mayflower](https://www.mayflower.de)) and Sebastian Klenk ([Eikona](http://www.eikona.de)), we finally made it happen with our first event of [DevOps Würzburg Mainfranken](https://www.meetup.com/de-DE/DevOps-Wuerzburg-Mainfranken/events/234778486/).
+Together with Andreas Rudat ([mayflower](https://www.mayflower.de)) and Sebastian Kremer ([Eikona](http://www.eikona.de)), we finally made it happen with our first event of [DevOps Würzburg Mainfranken](https://www.meetup.com/de-DE/DevOps-Wuerzburg-Mainfranken/events/234778486/).
 
 The diversity between the in total 40 participants lead to very broad discussions, with a lot of thoughts focused on DevOps culture and why we need it.
  Participants ranged from roughly a third of them being students (some even in their first semester) to CEO, from many in the role of developer, over sysadmins to project managers and Technical Evangelist.
