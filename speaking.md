@@ -13,18 +13,26 @@ description: "From time time, I want to say something."
 
 Currently, I'd be particularly happy to speak about the following topics:
 
-- Akka in general and Akka Cluster feature (pubsub, distibuted data)
-- Akka monitoring using [Kamon](https://kamon.io)
+- Akka
 - Jenkins Pipelines
-- AWS Networking
+- AWS in general and AWS networking in particular
+- Prometheus & Grafana
 
-# Upcoming Talks
+#  Past Talks
+
+## Jenkins vs. CodePipeline (Sep 2019)
+
+Who has not used Jenkins? Who does not have a love-hate relationship with it?<br>
+At EMnify, we are heavy Jenkins users, but we re also always considering alternatives where hosted services could make our life easier.<br>
+Therefore, we recently - once again - looked at AWS CodePipeline and its friends CodeCommit, CodeBuild, and CodeDeploy. In this talk, we will compare the current state of the two ecosystems regarding their simplicity and flexibility for implementing both trivial as well as complex pipelines. Further, we cover topics like: deployment, maintenance, security, costs, and usability.
+
+- Slides at [SlideShare](https://www.slideshare.net/StephenKing/jenkins-vs-aws-codepipeline-170349976)
+- Together with my colleague [Rafael Schleetz Benvenuti](https://twitter.com/rafaelbenvenuti)
+- Event: [AWS Community Day Germany](https://www.aws-community-day.de), Hamburg
 
 ## Networking in Amazon Web Services  (Oct 2018)
 
 - Event: [DevOps Meetup Würzburg](https://www.meetup.com/de-DE/DevOps-Wuerzburg-Mainfranken/events/254663322/)
-
-#  Past Talks
 
 ## Monitoring Akka with Kamon 1.0 (Apr 2018)
 
@@ -109,7 +117,7 @@ How new protocols (HTTP/2, QUIC, Multipath TCP) change the web and data transpor
  - Together with [Prof. Peter Sturm](https://www.uni-trier.de/index.php?id=17497)
  - Event: [Datev](https://www.datev.de) TrendScout, Nuremberg
 
-## SDN Interfaces and Performance Analysis of SDN Components (Sept. 2014)
+## SDN Interfaces and Performance Analysis of SDN Components (Sep 2014)
 
 - Sides at [SlideShare](http://www.slideshare.net/StephenKing/sdn-interfaces-and-performance-analysis-of-sdn-components)
 - Event: [ZKI Herbsttagung](https://www.rhrk.uni-kl.de/aktuell/zki2014/tagungsprogramm/), Kaiserslautern
