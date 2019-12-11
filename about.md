@@ -13,7 +13,8 @@ Computer scientist living in Würzburg, Germany. Open source enthusiast with int
 
 ## Bio
 
-- since 10/2018: Head of Site Reliability Engineering at [EMnify](https:///www.emnify.com), where we develop and operate custom-built mobile core networks for the Internet of Things.
+- since 11/2019: Directory Technology, Infrastructure at [EMnify](https:///www.emnify.com), where we develop and operate custom-built mobile core networks for the Internet of Things.
+- 10/2018 - 10/2019: Head of Site Reliability Engineering at EMnify
 - 08/2018 - 09/2018: Site Reliability Engineer at EMnify.
 - 05/2017 - 08/2018: Software engineer at EMnify.
 - 2011 - 2017: PhD in computer science at the [Chair of Communication Networks](http://comnet.informatik.uni-wuerzburg.de) of University of Würzburg. Dissertation: _Architectures for Softwarized Networks and Their Performance Evaluation_ ([PDF](https://opus.bibliothek.uni-wuerzburg.de/frontdoor/index/index/docId/15063), [Publications](http://www.comnet.informatik.uni-wuerzburg.de/team/alumni/steffen-gebert/)).
