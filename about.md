@@ -15,7 +15,7 @@ Computer scientist living in Würzburg, Germany. Open source enthusiast with int
 
 ## Bio
 
-- since 11/2019: Directory Technology, Infrastructure at [EMnify](https:///www.emnify.com), where we develop and operate custom-built mobile core networks for the Internet of Things.
+- since 11/2019: Director Technology, Infrastructure at [EMnify](https:///www.emnify.com), where we develop and operate custom-built mobile core networks for the Internet of Things.
 - 10/2018 - 10/2019: Head of Site Reliability Engineering at EMnify
 - 08/2018 - 09/2018: Site Reliability Engineer at EMnify.
 - 05/2017 - 08/2018: Software engineer at EMnify.
