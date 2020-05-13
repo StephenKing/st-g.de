@@ -6,11 +6,11 @@ title: About Me
 
 Computer scientist living in Würzburg, Germany. Open source enthusiast with interests in release engineering, infrastructure and networking. Currently with [EMnify](https:///www.emnify.com). Occasional [speaker](/speaking/).
 
-[![AWS Certified Solutions Architect - Professional Logo](/images/aws-cert-sa.png){:height="100px" width="100px"}](https://www.certmetrics.com/amazon/public/badge.aspx?i=4&t=c&d=2019-08-05&ci=AWS00509574)
-[![AWS Certified DevOps Engineer - Professional Logo](/images/aws-cert-devops.png){:height="100px" width="100px"}](https://www.certmetrics.com/amazon/public/badge.aspx?i=5&t=c&d=2019-12-04&ci=AWS00509574)
-[![AWS Certified Advanced Networking - Specialty Logo](/images/aws-cert-networking.png){:height="100px" width="100px"}](https://www.certmetrics.com/amazon/public/badge.aspx?i=6&t=c&d=2018-09-14&ci=AWS00509574)
-[![AWS Certified Database - Specialty Logo](/images/aws-cert-database.png){:height="100px" width="100px"}](https://www.certmetrics.com/amazon/public/badge.aspx?i=12&t=c&d=2019-12-05&ci=AWS00509574)
-[![AWS Certified Security - Specialty Logo](/images/aws-cert-security.png){:height="100px" width="100px"}](https://www.certmetrics.com/amazon/public/badge.aspx?i=7&t=c&d=2019-05-22&ci=AWS00509574)
+[![AWS Certified Solutions Architect - Professional Logo](/images/aws-cert-sa.png){:height="100px" width="100px"}](https://www.youracclaim.com/badges/31cb2dce-31c7-4963-a434-6962072cdace/public_url)
+[![AWS Certified DevOps Engineer - Professional Logo](/images/aws-cert-devops.png){:height="100px" width="100px"}](https://www.youracclaim.com/badges/8ed87466-f2c6-4ffb-9e17-ee1026126a1b/public_url)
+[![AWS Certified Advanced Networking - Specialty Logo](/images/aws-cert-networking.png){:height="100px" width="100px"}](https://www.youracclaim.com/badges/bce3975e-b868-40df-acad-66820e8a8271/public_url)
+[![AWS Certified Database - Specialty Logo](/images/aws-cert-database.png){:height="100px" width="100px"}](https://www.youracclaim.com/badges/5e63525f-c089-48d5-addc-ff48e6a332b6/public_url)
+[![AWS Certified Security - Specialty Logo](/images/aws-cert-security.png){:height="100px" width="100px"}](https://www.youracclaim.com/badges/332c15cc-2567-4867-a2c3-9e2607385f08/public_url)
 [![HashiCorp Certified: Terraform Associate Logo](/images/hashicorp-cert-terraform-associate.png){:height="100px" width="100px"}](https://www.youracclaim.com/badges/7e3bd335-2cd5-42e5-ae33-884d390fc6fe/public_url)
 
 ## Bio
