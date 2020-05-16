@@ -3,6 +3,13 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,100,700);
 @import url(https://fonts.googleapis.com/css?family=Sacramento);
 
+span.hide {
+  position: absolute;
+  top: 120px;
+  left: 250px;
+  z-index: 0;
+}
+
 /*!
  * HMFAYSAL OMEGA v1.0.1
  * Responsive Jekyll Theme
