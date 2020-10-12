@@ -13,10 +13,25 @@ description: "From time time, I want to say something."
 
 Currently, I'd be particularly happy to speak about the following topics:
 
-- Akka
-- Jenkins Pipelines
 - AWS in general and AWS networking in particular
+- Jenkins Pipelines
 - Prometheus & Grafana
+
+# Upcoming Talks
+
+## [German] Mobilfunknetz in der AWS-Cloud (Oct, 2020)
+
+How EMnify runs a fully virtualized mobile core network on AWS.
+
+- Event: [Würzburg Web Week](https://timetable.wueww.de/veranstaltung/262), Würzburg
+- Date: Oct 19th, 2020
+
+## Serverless Networking - How We Provide Cloud-Native Connectivity for IoT Devices (Nov 2020)
+
+In serverless, the network is taken for granted. But what if the network is the product? Is there a routerless? Does it still have a CLI?
+
+- Event: [AWS Community Day - Bay Area](https://awscommunityday.com/#speaker-drsteffengebert) (online)
+- Date: Nov 13th, 2020
 
 #  Past Talks
 
