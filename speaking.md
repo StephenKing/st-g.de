@@ -19,20 +19,6 @@ Currently, I'd be particularly happy to speak about the following topics:
 
 # Upcoming Talks
 
-## [German] Mobilfunknetz in der AWS-Cloud (Oct, 2020)
-
-How EMnify runs a fully virtualized mobile core network on AWS.
-
-- Event: [Würzburg Web Week](https://timetable.wueww.de/veranstaltung/262), Würzburg
-- Date: Oct 19th, 2020
-
-## How our Cloudy Mindsets Approached Physical Routers (or: SNMP was not an option)
-
-After the latest project, EMnify became a 99% only cloud company. To meet growing scalability and reliability requirements of the interconnection between our AWS-based deployments and multiple carriers, BGP peerings had to be moved out of AWS. Therefore, a pair of Juniper routers were put into place. For a company fully relying on cloud services so far, this alien technology resulted in several challenges.
-We want to share, how we solved the integration puzzle of this physical equipment into our existing workflows and tools. 
-
-- Event: [DENOG12](https://pretalx.denog.de/denog12/sneak/) (online)
-- Date: Nov 11th/12th, 2020
 
 ## Serverless Networking - How We Provide Cloud-Native Connectivity for IoT Devices (Nov 2020)
 
@@ -42,6 +28,21 @@ In serverless, the network is taken for granted. But what if the network is the 
 - Date: Nov 13th, 2020
 
 #  Past Talks
+
+## How our Cloudy Mindsets Approached Physical Routers (or: SNMP was not an option) (Nov 2020)
+
+After the latest project, EMnify became a 99% only cloud company. To meet growing scalability and reliability requirements of the interconnection between our AWS-based deployments and multiple carriers, BGP peerings had to be moved out of AWS. Therefore, a pair of Juniper routers were put into place. For a company fully relying on cloud services so far, this alien technology resulted in several challenges.
+We want to share, how we solved the integration puzzle of this physical equipment into our existing workflows and tools. 
+
+- Slides at [SlideShare](https://www.slideshare.net/StephenKing/how-our-cloudy-mindsets-approached-physical-routers)
+- Video at [YouTube](https://www.youtube.com/watch?v=R8GdDQDCVvY)
+- Event: [DENOG12](https://www.denog.de/de/meetings/denog12/talks.html) (online)
+
+## [German] Mobilfunknetz in der AWS-Cloud (Oct 2020)
+
+How EMnify runs a fully virtualized mobile core network on AWS.
+
+- Event: [Würzburg Web Week](https://timetable.wueww.de/veranstaltung/262), Würzburg
 
 ## Jenkins vs. CodePipeline (Sep 2019)
 
