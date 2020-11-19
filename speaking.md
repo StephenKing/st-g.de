@@ -17,17 +17,14 @@ Currently, I'd be particularly happy to speak about the following topics:
 - Jenkins Pipelines
 - Prometheus & Grafana
 
-# Upcoming Talks
-
+#  Past Talks
 
 ## Serverless Networking - How We Provide Cloud-Native Connectivity for IoT Devices (Nov 2020)
 
 In serverless, the network is taken for granted. But what if the network is the product? Is there a routerless? Does it still have a CLI?
 
+- Slides at [SlideShare](https://www.slideshare.net/StephenKing/serverless-networking-how-we-provide-cloudnative-connectivity-for-iot-devices)
 - Event: [AWS Community Day - Bay Area](https://awscommunityday.com/#speaker-drsteffengebert) (online)
-- Date: Nov 13th, 2020
-
-#  Past Talks
 
 ## How our Cloudy Mindsets Approached Physical Routers (or: SNMP was not an option) (Nov 2020)
 
