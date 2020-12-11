@@ -24,6 +24,7 @@ Currently, I'd be particularly happy to speak about the following topics:
 In serverless, the network is taken for granted. But what if the network is the product? Is there a routerless? Does it still have a CLI?
 
 - Slides at [SlideShare](https://www.slideshare.net/StephenKing/serverless-networking-how-we-provide-cloudnative-connectivity-for-iot-devices)
+- Video at [YouTube](https://www.youtube.com/watch?v=WAypNBSGQpw)
 - Event: [AWS Community Day - Bay Area](https://awscommunityday.com/#speaker-drsteffengebert) (online)
 
 ## How our Cloudy Mindsets Approached Physical Routers (or: SNMP was not an option) (Nov 2020)
