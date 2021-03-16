@@ -27,6 +27,7 @@ Computer scientist living near Würzburg, Germany. Open source enthusiast with i
 [![AWS Certified DevOps Engineer - Professional Logo](/images/aws-cert-devops.png){:height="100px" width="100px"}](https://www.youracclaim.com/badges/8ed87466-f2c6-4ffb-9e17-ee1026126a1b)
 [![AWS Certified Advanced Networking - Specialty Logo](/images/aws-cert-networking.png){:height="100px" width="100px"}](https://www.youracclaim.com/badges/bce3975e-b868-40df-acad-66820e8a8271)
 [![AWS Certified Data Analytics - Specialty Logo](/images/aws-cert-data-analytics.png){:height="100px" width="100px"}](https://www.youracclaim.com/badges/13f543cb-21e3-4dac-8527-0935e11f0dda)
+[![AWS Certified Machine Learning - Specialty Logo](/images/aws-cert-machine-learning.png){:height="100px" width="100px"}](https://www.youracclaim.com/badges/6f0ebe20-5aa4-48f9-a57c-d3c91f0b3688/public_url)
 [![AWS Certified Database - Specialty Logo](/images/aws-cert-database.png){:height="100px" width="100px"}](https://www.youracclaim.com/badges/5e63525f-c089-48d5-addc-ff48e6a332b6)
 [![AWS Certified Security - Specialty Logo](/images/aws-cert-security.png){:height="100px" width="100px"}](https://www.youracclaim.com/badges/332c15cc-2567-4867-a2c3-9e2607385f08)
 [![HashiCorp Certified: Terraform Associate Logo](/images/hashicorp-cert-terraform-associate.png){:height="100px" width="100px"}](https://www.youracclaim.com/badges/7e3bd335-2cd5-42e5-ae33-884d390fc6fe)
