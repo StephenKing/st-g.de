@@ -23,6 +23,8 @@ Computer scientist living near Würzburg, Germany. Open source enthusiast with i
 
 ## Certifications
 
+[![AWS Certification Subject Matter Expert Specialty Logo](/images/aws-cert-sme.png){:height="100px" width="100px"}](https://www.credly.com/badges/c1b027e9-5b06-4207-a1cd-be86fd540116/)
+
 [![AWS Certified Cloud Practitioner Logo](/images/aws-cert-cloud-practitioner.png){:height="100px" width="100px"}](https://www.youracclaim.com/badges/292dd973-644c-4a63-af57-ecb32062d91e/)
 [![AWS Certified Solutions Architect - Associate Logo](/images/aws-cert-sa-assoc.png){:height="100px" width="100px"}](https://www.youracclaim.com/badges/cc056a22-17d3-4564-82ed-22daafdaab5c/)
 [![AWS Certified Developer - Associate Logo](/images/aws-cert-developer.png){:height="100px" width="100px"}](https://www.youracclaim.com/badges/902ae054-7fd9-4fd8-a3b8-d2094558df35/)
