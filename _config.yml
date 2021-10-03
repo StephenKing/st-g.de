@@ -3,7 +3,7 @@ description:
 logo:             stg.png
 disqus_shortname: st-g-de
 # Assign a default image for your site's header and footer
-default_bg:       2015-05-10_07-18-52.jpg
+default_bg:       background-header.png
 search:           true
 share:            true
 # Read Time is a calculator tp provide post read-time based on word count. Usage is recommended.
