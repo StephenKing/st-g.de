@@ -17,13 +17,16 @@ Computer scientist living near Würzburg, Germany. Open source enthusiast with i
 
 ## Other Activities
 
+- since 10/2021: [AWS Community Builder](https://aws.amazon.com/developer/community/community-builders/)
+- since 12/2020: Subject Matter Expert for the [AWS Advanced Networking - Specialty](https://aws.amazon.com/certification/certified-advanced-networking-specialty/) Certification
 - since 06/2016: Organizer of [DevOps Würzburg Meetup](https://www.meetup.com/de-DE/DevOps-Wuerzburg-Mainfranken/)
 - 07/2011 - 11/2018: Member of the [TYPO3 Server Admin Team](https://typo3.org/community/teams/server-team) 
 - 08/2010 – 01/2013: Member of the [TYPO3 Core Development Team](https://typo3.org/community/teams/typo3-development)
 
-## Certifications
+[![AWS Certification Subject Matter Expert Specialty Logo](/images/aws-cert-sme.png){:height="150px" width="150px"}](https://www.credly.com/badges/c1b027e9-5b06-4207-a1cd-be86fd540116/)
+[![AWS Community Builders Logo](/images/aws-community-builders.png){:height="150px"}](https://aws.amazon.com/developer/community/community-builders/)
 
-[![AWS Certification Subject Matter Expert Specialty Logo](/images/aws-cert-sme.png){:height="100px" width="100px"}](https://www.credly.com/badges/c1b027e9-5b06-4207-a1cd-be86fd540116/)
+## Certifications
 
 [![AWS Certified Cloud Practitioner Logo](/images/aws-cert-cloud-practitioner.png){:height="100px" width="100px"}](https://www.credly.com/badges/292dd973-644c-4a63-af57-ecb32062d91e/)
 [![AWS Certified Solutions Architect - Associate Logo](/images/aws-cert-sa-assoc.png){:height="100px" width="100px"}](https://www.credly.com/badges/cc056a22-17d3-4564-82ed-22daafdaab5c/)
