@@ -19,6 +19,15 @@ Currently, I'd be particularly happy to speak about the following topics:
 
 #  Past Talks
 
+## Three Main Challenges for Securely Scaling Connected Devices (Apr 2022)
+
+IoT security starts with the device. If the initial device isn’t secure when it scales it will become a cybersecurity nightmare. 
+
+_IoT for All_ webinar, with Jeff Stahlnecker
+
+- Video at [YouTube](https://www.youtube.com/watch?v=H4Bmhs631eg)
+- Event: [IoT for All webinar](https://www.iotforall.com/webinar/three-main-challenges-for-securely-scaling-connected-devices)
+
 ## Serverless Networking - How We Provide Cloud-Native Connectivity for IoT Devices (Nov 2020)
 
 In serverless, the network is taken for granted. But what if the network is the product? Is there a routerless? Does it still have a CLI?
