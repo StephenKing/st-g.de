@@ -13,11 +13,35 @@ description: "From time time, I want to say something."
 
 Currently, I'd be particularly happy to speak about the following topics:
 
-- AWS in general and AWS networking in particular
+- AWS in general and
+- AWS networking in particular
+- Feature Management
 - Jenkins Pipelines
-- Prometheus & Grafana
+- Monitoring
+
+# Upcoming Talks
+
+## [German] Wenn selbst ‘erlaube allen Verkehr von 0.0.0.0/0’ nicht hilft - Verbindungsprobleme in AWS lösen (Oct 2022)
+
+Was tun, wenn die Netzverbindung zwischen zwei AWS-Diensten will einfach nicht zu Stande kommen will - obwohl schon alle Security Groups weit offen wie Scheunentore sind?
+
+- Together with my colleague Wolfgang Schäfer
+- Event: [AWS Community Day DACH 2022](https://aws-community-day.de/), Dresden
 
 #  Past Talks
+
+## Feature Management Platforms (June & Sept 2022)
+
+The idea of Feature Toggles exists since more than a decade and is a corner stone of Continuous Delivery. However, few people seem to exploit the potential that this brings. Decoupling release from deployment brings greater flexibility. Gradual rollouts - percentage-based or for specific beta users and customers - increase safety as well as help to gather feedback early in the development cycle.
+
+- Slides at [SlideShare](https://www.slideshare.net/StephenKing/feature-management-platforms)
+- Event: [DevOps Camp 2022](https://devops-camp.de) and [CloudLand 2022](https://shop.doag.org/events/cloudland/2022/agenda/#eventDay.1656626400)
+
+## Industrial Point of View on 5G and Beyond (July 2022)
+
+Discussion session with academic and industrial researchers on the influence of 5G on IoT connectivity.
+
+- Event: [WueWoWas2022](https://lsinfo3.github.io/WueWoWas2022/), Würzburg
 
 ## Three Main Challenges for Securely Scaling Connected Devices (Apr 2022)
 
