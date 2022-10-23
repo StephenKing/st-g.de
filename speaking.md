@@ -19,16 +19,15 @@ Currently, I'd be particularly happy to speak about the following topics:
 - Jenkins Pipelines
 - Monitoring
 
-# Upcoming Talks
+#  Past Talks
 
 ## [German] Wenn selbst ‘erlaube allen Verkehr von 0.0.0.0/0’ nicht hilft - Verbindungsprobleme in AWS lösen (Oct 2022)
 
 Was tun, wenn die Netzverbindung zwischen zwei AWS-Diensten will einfach nicht zu Stande kommen will - obwohl schon alle Security Groups weit offen wie Scheunentore sind?
 
 - Together with my colleague Wolfgang Schäfer
+- Slides at [SlideShare](https://www.slideshare.net/StephenKing/aws-community-day-network-troubleshooting/)
 - Event: [AWS Community Day DACH 2022](https://aws-community-day.de/), Dresden
-
-#  Past Talks
 
 ## Feature Management Platforms (June & Sept 2022)
 
