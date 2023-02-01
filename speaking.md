@@ -21,6 +21,12 @@ Currently, I'd be particularly happy to speak about the following topics:
 
 #  Past Talks
 
+## AWS This is My Architecture (Feb 2023)
+
+I was invited to present during an episode of the _This is My Architecture_ series by AWS.
+
+- Video at [YouTube](https://www.youtube.com/watch?v=SC6n6J8Bi58)
+
 ## [German] Wenn selbst ‘erlaube allen Verkehr von 0.0.0.0/0’ nicht hilft - Verbindungsprobleme in AWS lösen (Oct 2022)
 
 Was tun, wenn die Netzverbindung zwischen zwei AWS-Diensten will einfach nicht zu Stande kommen will - obwohl schon alle Security Groups weit offen wie Scheunentore sind?
