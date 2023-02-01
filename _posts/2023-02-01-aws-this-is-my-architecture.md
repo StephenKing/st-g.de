@@ -18,9 +18,8 @@ I had the pleasure and honor to present emnify's packet gateway architecture in 
 
 <iframe width="420" height="315" src="http://www.youtube.com/embed/SC6n6J8Bi58" frameborder="0" allowfullscreen></iframe>
 
-In a rented film studio, the crew recorded ca. 20 customer videos. It was a pleasure, to be one of those cost
-
-Thanks to amazing our account manager Karl Oppermann, the AWS TMA team, as well as Amazon's video crew came over to Munich.
+Thanks to our amazing account manager Karl Oppermann, the AWS TMA team, as well as Amazon's video crew came over to Munich.
+In a rented film studio, the crew recorded ca. 20 customer videos. It was a pleasure, to be one of those customers.
 My host in this video was Thomas Wieger, a Senior Solutions Architect at AWS.
 
 ![Steffen and Thomas](/images/2023-02-01-aws-this-is-my-architecture/steffen-and-thomas.jpg)
