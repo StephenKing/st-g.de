@@ -19,6 +19,18 @@ Currently, I'd be particularly happy to speak about the following topics:
 - Jenkins Pipelines
 - Monitoring
 
+# Upcoming Talks
+
+## Building an IoT SuperNetwork on top of the AWS Global Infrastructure
+
+- Event: [AWS Summit Londo](https://aws.amazon.com/events/summits/london/)
+- Date: June 7th, 2023
+
+## When ‘allow all from 0.0.0.0’ didn’t help - troubleshooting network connectivity in AWS
+
+- Event: [AWS User Group Nürnberg](https://www.meetup.com/de-DE/nurnberg-aws-user-group/)
+- Date: May 8th, 2023
+
 #  Past Talks
 
 ## AWS This is My Architecture (Feb 2023)
