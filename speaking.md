@@ -23,7 +23,7 @@ Currently, I'd be particularly happy to speak about the following topics:
 
 ## Building an IoT SuperNetwork on top of the AWS Global Infrastructure
 
-- Event: [AWS Summit Londo](https://aws.amazon.com/events/summits/london/)
+- Event: [AWS Summit London](https://aws.amazon.com/events/summits/london/)
 - Date: June 7th, 2023
 
 ## When ‘allow all from 0.0.0.0’ didn’t help - troubleshooting network connectivity in AWS
