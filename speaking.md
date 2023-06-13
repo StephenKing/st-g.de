@@ -19,19 +19,17 @@ Currently, I'd be particularly happy to speak about the following topics:
 - Jenkins Pipelines
 - Monitoring
 
-# Upcoming Talks
+#  Past Talks
 
-## Building an IoT SuperNetwork on top of the AWS Global Infrastructure
+## Building an IoT SuperNetwork on top of the AWS Global Infrastructure (June 2023)
 
+- Together with Daniel Lemke (AWS)
 - Event: [AWS Summit London](https://aws.amazon.com/events/summits/london/)
-- Date: June 7th, 2023
+- Slides at [SlideShare](https://www.slideshare.net/StephenKing/building-an-iot-supernetwork-on-top-of-the-aws-global-infrastructure) or [PDF](/assets/pdf/2023-06-07-AWS-Summit-London.pdf)
 
-## When ‘allow all from 0.0.0.0’ didn’t help - troubleshooting network connectivity in AWS
+## When ‘allow all from 0.0.0.0’ didn’t help - troubleshooting network connectivity in AWS (May 2023)
 
 - Event: [AWS User Group Nürnberg](https://www.meetup.com/de-DE/nurnberg-aws-user-group/)
-- Date: May 8th, 2023
-
-#  Past Talks
 
 ## AWS This is My Architecture (Feb 2023)
 
@@ -44,14 +42,14 @@ I was invited to present during an episode of the _This is My Architecture_ seri
 Was tun, wenn die Netzverbindung zwischen zwei AWS-Diensten will einfach nicht zu Stande kommen will - obwohl schon alle Security Groups weit offen wie Scheunentore sind?
 
 - Together with my colleague Wolfgang Schäfer
-- Slides at [SlideShare](https://www.slideshare.net/StephenKing/aws-community-day-network-troubleshooting/)
+- Slides at [SlideShare](https://www.slideshare.net/StephenKing/aws-community-day-network-troubleshooting/) or [PDF](/assets/pdf/2022-10-19-AWS-Community-Day-Network-Troubleshooting.pdf)
 - Event: [AWS Community Day DACH 2022](https://aws-community-day.de/), Dresden
 
 ## Feature Management Platforms (June & Sept 2022)
 
 The idea of Feature Toggles exists since more than a decade and is a corner stone of Continuous Delivery. However, few people seem to exploit the potential that this brings. Decoupling release from deployment brings greater flexibility. Gradual rollouts - percentage-based or for specific beta users and customers - increase safety as well as help to gather feedback early in the development cycle.
 
-- Slides at [SlideShare](https://www.slideshare.net/StephenKing/feature-management-platforms)
+- Slides at [SlideShare](https://www.slideshare.net/StephenKing/feature-management-platforms) or [PDF](/assets/pdf/2022-09-23-DevOps-Camp-CloudLand-Feature-Management-Platforms.pdf)
 - Event: [DevOps Camp 2022](https://devops-camp.de) and [CloudLand 2022](https://shop.doag.org/events/cloudland/2022/agenda/#eventDay.1656626400)
 
 ## Industrial Point of View on 5G and Beyond (July 2022)
@@ -73,7 +71,7 @@ _IoT for All_ webinar, with Jeff Stahlnecker
 
 In serverless, the network is taken for granted. But what if the network is the product? Is there a routerless? Does it still have a CLI?
 
-- Slides at [SlideShare](https://www.slideshare.net/StephenKing/serverless-networking-how-we-provide-cloudnative-connectivity-for-iot-devices)
+- Slides at [SlideShare](https://www.slideshare.net/StephenKing/serverless-networking-how-we-provide-cloudnative-connectivity-for-iot-devices) or [PDF](/assets/pdf/2020-11-13-AWS-Community-Day-Serverless-Networking.pdf)
 - Video at [YouTube](https://www.youtube.com/watch?v=WAypNBSGQpw)
 - Event: [AWS Community Day - Bay Area](https://awscommunityday.com/#speaker-drsteffengebert) (online)
 
