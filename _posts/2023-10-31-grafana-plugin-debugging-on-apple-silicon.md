@@ -99,11 +99,14 @@ You can now see in the _Activity Monitor_ that `grafana` runs as Kind `Apple`, w
 
 To allow unsigned plugins to be executed, follow the documentation and update `conf/defaults.ini` to
 
-``
+```
 app_mode = development
-``
+```
 
 After installing my plugin in Grafana, it is also shown as `Apple` and also with the `*_darwin_arm64` file name.
+
+
+![Activity Monitor screenshot showing the grafana process running as Kind Apple](/images/2023-10-31-grafana-plugin-debugging/grafana-activity-monitor-plugins.png)
 
 If the plugin is not shown in Grafana, make sure the folder structure is correct, which you can easily check by installing another plugin for comparison.
 
