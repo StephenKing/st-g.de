@@ -16,7 +16,7 @@ As I disliked debugging via logging to stdout already in good old PHP times (whe
 
 While [Grafana's `create-plugin` tool](https://grafana.com/developers/plugin-tools/) is results in a fantastic developer experience and also, theoretically, generates everything which is needed to attach a debugger, this failed for me on MacOS using Apple Silicon (ARM64, darwinARM64).
 
-If you don't want to read through my lengthy monologue of things that did _not_ work, you can directly jump to the section [Worked for me](#worked-for-me-building-grafana).
+If you don't want to read through my lengthy monologue of things that did _not_ work, you can directly jump to the section [Worked for me](#worked-for-me-building-grafana) - or to [What probably also works (and might be easier)](#update-what-probably-also-works-homebrew).
 
 ## Did not work: Debugging in Docker
 
@@ -149,3 +149,27 @@ Depending on where in your code you placed the breakpoint, you might have to exe
 I hope this helps you with developing your plugin. In case you have any corrections to this article, you're welcome to contact me via `@StGebert@digitalcourage.social`.
 
 Happy debugging!
+
+## Update: What probably also works: Homebrew
+
+After posting about this article [in the Grafana community](https://community.grafana.com/t/plugin-debugging-on-macos-apple-silicon/106799/, I got the feedback that installing it via homebrew would also provide an ARM64 Grafana.
+
+Indeed, this is true:
+
+```bash
+$ brew install grafana
+
+==> Downloading https://ghcr.io/v2/homebrew/core/grafana/manifests/10.1.1
+#################################################################################################################################################################################################### 100.0%
+==> Fetching grafana
+==> Downloading https://ghcr.io/v2/homebrew/core/grafana/blobs/sha256:31f547ed00edb1ac7b60a764fee642f70c1eecb811400974f266861a8efba094
+#################################################################################################################################################################################################### 100.0%
+==> Pouring grafana--10.1.1.arm64_ventura.bottle.tar.gz
+==> Caveats
+To start grafana now and restart at login:
+  brew services start grafana
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/grafana/bin/grafana server --config /opt/homebrew/etc/grafana/grafana.ini --homepath /opt/homebrew/opt/grafana/share/grafana --packaging\=brew cfg:default.paths.logs\=/opt/homebrew/var/log/grafana cfg:default.paths.data\=/opt/homebrew/var/lib/grafana cfg:default.paths.plugins\=/opt/homebrew/var/lib/grafana/plugins
+```
+
+Especially the last command is nice, because I usually struggle to find around where homebrew has put the config files.
