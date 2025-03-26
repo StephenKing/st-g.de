@@ -16,10 +16,20 @@ Currently, I'd be particularly happy to speak about the following topics:
 - AWS in general and
 - AWS networking in particular
 - Feature Management
-- Jenkins Pipelines
 - Monitoring
 
 #  Past Talks
+
+## Please Give Me Back My Network Cables! On Networking Limits in AWS (March 2025)
+
+How much is “up to 10 Gbps” for an EC2 instance? And what happens, if packets are smaller or fragmented? Over the years of running our mobile core’s network functions on AWS, we learned – the hard way – about numerous network limits. Many of them are (in the meantime) documented, but some are not.
+
+In this presentation, we share our horror stories on what kept us awake at night. To make you better informed, we will explain limits such as packets per second and connection tracking and how those will affect your network traffic, once they are exceeded. We share, how you can (sometimes) monitor your remaining quotas, or at least how you can identify the reason, why your applications go haywire.
+
+- Together with my colleague [Miklos Tirpak](https://linkedin.com/in/miklos-tirpak)
+- Event: [SREcon Americas 2025](https://www.usenix.org/conference/srecon25americas/presentation/gebert)
+- Slides at [SlideShare](https://www.slideshare.net/slideshow/please-give-me-back-my-network-cables-on-networking-limits-in-aws/277223102) or [PDF](/assets/pdf/2025-03-26-SREcon-AWS-Networking.pdf)
+- Video will be on YouTube
 
 ## Building an IoT SuperNetwork on top of the AWS Global Infrastructure (June 2023)
 
