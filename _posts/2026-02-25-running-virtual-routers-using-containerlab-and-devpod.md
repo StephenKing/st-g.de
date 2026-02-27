@@ -94,6 +94,7 @@ And this is where the magic comes together:
 - The user can then deploy a topology.
 - Console of VM-based routers can be reached via telnet on port 5000
 
+As bonus point: DevPod shuts down unused EC2 instances, by default after 10min.
 
 Here is my `.devcontainer/devcontainer.json`:
 ``````
