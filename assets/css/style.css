@@ -1,7 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700);
 @import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,400italic,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,100,700);
-@import url(https://fonts.googleapis.com/css?family=Sacramento);
 
 span.hide {
   position: absolute;
@@ -116,7 +115,7 @@ blockquote:before {
   width: 4px;
 }
 .cursive {
-  font-family: 'Sacramento', cursive;
+  font-style: italic;
   color: #17e4d8;
   font-size: 34px;
   text-align: center;
