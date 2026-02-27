@@ -72,7 +72,7 @@ For me as AWS user, this meant using very expensive metal instances (> $4/hour),
 Recently, AWS changed this and offers [Nested Virtualization](https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-nested-virtualization-on-virtual/) also in "regular" EC2 instances with Intel CPU r8i, m8i, and c8i.
 Depending on how many routers we want to run, this can result in a 10x cost saving.
 
-# DevPod
+## DevPod
 
 Another project that I was using occasionally throughout the past years was DevPod.
 
