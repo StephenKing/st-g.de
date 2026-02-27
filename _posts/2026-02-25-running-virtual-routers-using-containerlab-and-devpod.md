@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Running virtual routers using Containerlab and DevPod"
-date:   2024-12-27 15:00:00 +0000
-tags: [aws, step-functions]
+date:   2026-02-25 15:00:00 +0000
+tags: [aws, containerlab, juniper, devpod]
 description: Using AWS recently launched nested virtualization, it became even more easy to run commercial router VMs for lab testing. 
 
 comments: true
