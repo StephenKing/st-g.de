@@ -97,7 +97,7 @@ And this is where the magic comes together:
 As bonus point: DevPod shuts down unused EC2 instances, by default after 10min.
 
 Here is my `.devcontainer/devcontainer.json`:
-``````
+```json
 {
   "build": {
     "dockerfile": "Dockerfile"
@@ -117,3 +117,4 @@ Here is my `.devcontainer/devcontainer.json`:
   "workspaceFolder": "${localWorkspaceFolder}",
   "workspaceMount": "source=${localWorkspaceFolder},target=${localWorkspaceFolder},type=bind"
 }
+```
