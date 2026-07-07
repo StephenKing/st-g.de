@@ -34,7 +34,7 @@ In this presentation, we share our horror stories on what kept us awake at night
 - Together with my colleague [Miklos Tirpak](https://linkedin.com/in/miklos-tirpak)
 - Event: [SREcon Americas 2025](https://www.usenix.org/conference/srecon25americas/presentation/gebert)
 - Slides at [SlideShare](https://www.slideshare.net/slideshow/please-give-me-back-my-network-cables-on-networking-limits-in-aws/277223102) or [PDF](/assets/pdf/2025-03-26-SREcon-AWS-Networking.pdf)
-- Video will be on YouTube
+- Video at [YouTube](https://www.youtube.com/watch?v=2AehFxKlUgQ)
 
 ## Building an IoT SuperNetwork on top of the AWS Global Infrastructure (June 2023)
 
