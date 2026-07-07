@@ -18,6 +18,11 @@ Currently, I'd be particularly happy to speak about the following topics:
 - Feature Management
 - Monitoring
 
+# Upcoming Talks
+
+- ["Keep Calm and Fix It"  at TYPO3 Developer Days](https://t3dd.typo3.com/schedule/sessions/stay-calm-and-fix-it-1142) (Karlsruhe, Germany, 07.09.2026)
+- ["Monitoring a Telco" at SREcon EMEA](https://www.usenix.org/conference/srecon26emea) (Dublin, Ireland, 13-15.10.2026)
+
 #  Past Talks
 
 ## Please Give Me Back My Network Cables! On Networking Limits in AWS (March 2025)
