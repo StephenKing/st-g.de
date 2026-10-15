@@ -18,12 +18,32 @@ Currently, I'd be particularly happy to speak about the following topics:
 - Feature Management
 - Monitoring
 
-# Upcoming Talks
-
-- ["Keep Calm and Fix It"  at TYPO3 Developer Days](https://t3dd.typo3.com/schedule/sessions/stay-calm-and-fix-it-1142) (Karlsruhe, Germany, 07.09.2026)
-- ["Monitoring a Telco" at SREcon EMEA](https://www.usenix.org/conference/srecon26emea) (Dublin, Ireland, 13-15.10.2026)
-
 #  Past Talks
+
+## Monitoring a Telco (Oct 2026)
+
+Learn about cellular connectivity and how your phone can roam in Ireland as you watch this presentation - and the challenges of emnify as cellular operator for IoT connectivity monitoring SIM cards across the world.
+
+As millions of Prometheus metrics were not enough to understand the impact of incidents, we had to change gears to level up our monitoring.
+
+The major part of the presentation describes our approach to overcome the limitation from traditional applications monitoring. We transformed signalling requests and responses from individual packets on the wire into an infinite stream of events. Using Apache Flink as stream processing framework helped us to gain reliable data and enrich with necessary context about customers and network operators.
+
+We are confident that similar approaches can be also applied to systems outside of the telco industry.
+
+- Event: [SREcon EMEA](https://www.usenix.org/conference/srecon26emea/presentation/gebert), Dublin, Ireland
+- Slides: [PDF](/assets/pdf/2026-10-14-SREcon-Monitoring-Flink.pdf)
+- Video: to be published
+
+## Keep Calm and Fix It (Aug 2026)
+
+A decade ago, I was part of the TYPO3 Server Admin Team and helped to keep *.typo3.org alive. When things fell apart, hopefully someone from the team read monitoring emails and was available to check.
+
+In my current company, such best effort approach doesn’t fit. But this also became only apparent after a historic >24h incident years ago. As we are critical to the business of thousands of companies and their millions of IoT devices, we run an incident management process with 24/7 on-call across our team of almost 100 engineers.
+
+In this talk, I give an introduction to the art of incident management, how you can set it up in your company, and most importantly, the learnings I made in open source as well as while being responsible for the process since 2019.
+
+- Event: [TYPO3 Developer Days](https://t3dd.typo3.com/schedule/sessions/stay-calm-and-fix-it-1142), Karlsruhe
+
 
 ## Please Give Me Back My Network Cables! On Networking Limits in AWS (March 2025)
 
