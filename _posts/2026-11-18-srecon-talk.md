@@ -15,4 +15,4 @@ In October, I gave a talk at SREcon EMEA, titled `Monitoring a Telco`, where I e
 More information can be found on the [USENIX conference page](https://www.usenix.org/conference/srecon26emea/presentation/gebert), the recording on [YouTube](https://www.youtube.com/watch?v=mZW8vipp0Cw). Enjoy watching!
 
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/mZW8vipp0Cw" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="236" src="https://www.youtube.com/embed/mZW8vipp0Cw" frameborder="0" allowfullscreen></iframe>
