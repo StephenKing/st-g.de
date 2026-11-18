@@ -31,8 +31,8 @@ The major part of the presentation describes our approach to overcome the limita
 We are confident that similar approaches can be also applied to systems outside of the telco industry.
 
 - Event: [SREcon EMEA](https://www.usenix.org/conference/srecon26emea/presentation/gebert), Dublin, Ireland
-- Slides: [PDF](/assets/pdf/2026-10-14-SREcon-Monitoring-Flink.pdf)
-- Video: to be published
+- Slides as [PDF](/assets/pdf/2026-10-14-SREcon-Monitoring-Flink.pdf)
+- Video at [YouTube](https://www.youtube.com/watch?v=mZW8vipp0Cw)
 
 ## Keep Calm and Fix It (Aug 2026)
 
